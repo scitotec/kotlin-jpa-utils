@@ -1,9 +1,9 @@
 package com.scitotec.kotlinjpautils
 
 import com.scitotec.kotlinjpautils.criteria.CriteriaQueryScope
-import javax.persistence.EntityManager
-import javax.persistence.TypedQuery
-import javax.persistence.criteria.CriteriaQuery
+import jakarta.persistence.EntityManager
+import jakarta.persistence.TypedQuery
+import jakarta.persistence.criteria.CriteriaQuery
 
 /**
  * Create an instance of [TypedQuery] from an implicitly created (and typed) [CriteriaQuery] which can be modified.

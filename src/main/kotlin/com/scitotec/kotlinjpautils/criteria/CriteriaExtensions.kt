@@ -1,6 +1,6 @@
 package com.scitotec.kotlinjpautils.criteria
 
-import javax.persistence.criteria.*
+import jakarta.persistence.criteria.*
 import kotlin.reflect.KProperty1
 
 

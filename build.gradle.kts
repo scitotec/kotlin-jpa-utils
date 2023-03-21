@@ -73,7 +73,7 @@ signing {
 }
 
 dependencies {
-    compileOnly("jakarta.persistence:jakarta.persistence-api:2.2.1")
+    compileOnly("jakarta.persistence:jakarta.persistence-api:3.0.0")
     val junitVersion = "5.8.0"
     testImplementation("org.junit.jupiter:junit-jupiter-params:$junitVersion")
     testImplementation("org.assertj:assertj-core:3.21.0")
